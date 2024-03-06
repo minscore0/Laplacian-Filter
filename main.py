@@ -11,7 +11,7 @@ width = img.shape[1]
 img_pad = np.pad(img, ((1, 1), (1, 1)), 'edge')
 
 # scalar used in adjusting laplacian filter
-w = 1.2 
+w = 1.2
 
 laplacian_filter = np.array([[0, 1, 0],
                             [1, -4, 1],
